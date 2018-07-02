@@ -7,4 +7,6 @@ def my_each(words)
   words
 end
 
-# my_each(['hi', 'hello', 'bye', 'goodbye']) do k puts k end
+=begin
+my_each(['hi', 'hello', 'bye', 'goodbye']) do k puts k end
+=end
