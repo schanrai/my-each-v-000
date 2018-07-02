@@ -7,4 +7,4 @@ def my_each # put argument(s) here
   array
 end
 
-my_each (['hi', 'hello', 'bye', 'goodbye']) {|element| puts element}
+my_each (['hi', 'hello', 'bye', 'goodbye']) {|k| puts k}
