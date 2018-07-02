@@ -8,5 +8,6 @@ def my_each(words)
 end
 
 
-my_each([1,2,3]) {|k| puts k}
-
+my_each([1,2,3]) do |k|
+  puts k
+end
