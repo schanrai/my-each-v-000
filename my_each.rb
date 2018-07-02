@@ -8,4 +8,4 @@ def my_each(words)
 end
 
 
-my_each([1,2,3]) do k print k end
+my_each([1,2,3]) #do k print k end
