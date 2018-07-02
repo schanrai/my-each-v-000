@@ -8,4 +8,4 @@ def my_each(words)
 end
 
 
-my_each([words]) do k end
+my_each([words]) do puts k end
