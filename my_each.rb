@@ -7,4 +7,4 @@ def my_each(array) # put argument(s) here
   array
 end
 
-my_each(array) do k puts k end
+my_each(['hi', 'hello', 'bye', 'goodbye']) do k puts k end
