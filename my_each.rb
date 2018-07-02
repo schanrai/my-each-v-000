@@ -7,6 +7,5 @@ def my_each(words)
   words
 end
 
-=begin
-my_each(words) do k  k end
-=end
+
+#my_each(words) do k puts k end
