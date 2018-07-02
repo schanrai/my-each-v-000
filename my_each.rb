@@ -9,5 +9,5 @@ end
 
 
 my_each([1,2,3]) do |k|
-  puts k
+  array = Array.new
 end
