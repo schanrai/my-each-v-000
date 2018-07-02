@@ -1,4 +1,4 @@
-def my_each(words) 
+def my_each(words)
   i = 0
     while i < words.length
       yield words[i]
@@ -7,4 +7,4 @@ def my_each(words)
   words
 end
 
-#my_each(['hi', 'hello', 'bye', 'goodbye']) do k puts k end
+#my_each(['hi', 'hello', 'bye', 'goodbye']) do k  k end
