@@ -1,4 +1,4 @@
-def my_each # put argument(s) here
+def my_each (array) # put argument(s) here
   i=0
     while i < array.length
       yield array[i]
@@ -7,4 +7,4 @@ def my_each # put argument(s) here
   array
 end
 
-my_each (['hi', 'hello', 'bye', 'goodbye']) {|k| puts k}
+my_each (array) {|k| puts k}
