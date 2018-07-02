@@ -8,5 +8,5 @@ def my_each(words)
 end
 
 =begin
-my_each(words) do k  k end
+my_each(words) do k puts k end
 =end
